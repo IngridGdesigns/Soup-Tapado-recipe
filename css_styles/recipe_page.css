@@ -1,0 +1,20 @@
+body {
+    background-color: #FFFFD6;
+    font-family: 'Open Sans', cursive;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Chewy', cursive;
+    color: #71D9B6;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Chewy', cursive;
+    font-size: 2px;
+}
+
+h4 {
+    font-size: 20px;
+}
