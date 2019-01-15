@@ -18,10 +18,17 @@ h3 {
 
 h4 {
     font-family: 'Chewy', cursive;
-    color: #71D9B6;
+    color: /* #71D9B6;*/ #F76060;
     font-size: 20px;
 }
 
+a {
+    color:  #71D9B6; /*link color*/
+}
+
+a:hover {
+    color: #D70C78; /* changes to this color when user hovers over link */
+  }
 
 /* Css classes */
 /* width of description */
@@ -34,7 +41,9 @@ h4 {
 }
 
 .right {
-    
+    float: left;
+    width: 600px;
+    margin-left:30px;
 }
 
 .left {
