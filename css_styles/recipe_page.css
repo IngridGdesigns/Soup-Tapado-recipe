@@ -2,7 +2,7 @@ body {
     background-color: #FFFFD6;
     font-family: 'Open Sans', cursive;
     font-size: 14px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 h1 {
@@ -27,6 +27,10 @@ caption {
     font-size: 6px;
 }
 
+ol li {
+    padding: 10px;
+}
+
 
 /* Link styling */
 a {
@@ -40,6 +44,10 @@ a:hover {
 
 /* Css classes */
 /* width of description */
+.bullet {
+    list-style: none
+}
+
 .link {
     color:#099E47;
 }
