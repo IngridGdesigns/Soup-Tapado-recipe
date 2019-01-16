@@ -1,13 +1,15 @@
+
+
 body {
-    background-color: #FFFFD6;
+    background-color: #FFFFED;
     font-family: 'Open Sans', cursive;
     font-size: 14px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 h1 {
     font-family: 'Chewy', cursive;
-    color:  #F76060;
+    color:   #F76060;
     font-size: 50px;
 }
 
@@ -28,8 +30,29 @@ caption {
 }
 
 ol li {
-    padding: 10px;
+    padding: 10px; /* padding for instruction list */
 }
+
+.border {
+    border-radius:30px;
+    border: 1px solid #F76060;
+    padding: 30px;
+    margin-bottom: 5px;
+    width: 380px;
+    height: 100px;
+}
+/*change bullet points
+ul {
+    list-style: none;
+  }
+Add new style of bullet points from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_bullet_color 
+  ul li::before {
+    content: "\2022"; /*type of bullet point
+    color: #F76060;
+    width: 20px;
+    display: inline-block; 
+    margin-left: -1em; /* moves margins to left 
+  }*/
 
 
 /* Link styling */
@@ -44,15 +67,12 @@ a:hover {
 
 /* Css classes */
 /* width of description */
-.bullet {
-    list-style: none
-}
 
 .link {
     color:#099E47;
 }
 
-.top{
+.top {
     
 }
 
