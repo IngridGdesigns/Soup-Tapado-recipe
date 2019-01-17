@@ -88,11 +88,23 @@ a:hover {
 .right {
     float: left;
     width: 600px;
-    margin-left:30px;
+   /* margin-left: 280px;*/
 }
 
 .left {
     float: left;
     width: 600px;
 }
+
+.caption {
+    float: left;
+}
+
+
+
+
+/* Media querys */
+
+
+ 
 

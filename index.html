@@ -15,15 +15,15 @@
        <link href="https://fonts.googleapis.com/css?family=Chewy|Open+Sans:400,600" rel="stylesheet">
     </head>
     <body>
-        
+        <div class="container">
         <!-- <div class="col-lg-4 col-md-6">    class="col-sm-4" three equal-width columns starting at tablets and scaling to large desktops. 
             On mobile phones or screens that are less than 768px wide, the columns will automatically stack:-->
 
             <!-- <div class="col-sm-6"> example shows a "stacked-to-horizontal" two-column layout, meaning it will result in a 50%/50% split on 
               all screens, except for extra small screens, which it will automatically stack (100%):-->
-
+        <div class="row">
         <!-- col-xs-12 takes up 12 columns on small screens, so things are as large as possible-->
-        <div class="top col-xs-12 col-lg-4">
+        <div class="top col-xs-12 col-lg-6">
             <h1>Tapado: Garifuna Seafood soup</h1>
             <p class="description"> 
                 Tapado is a delicous seafood soup. It's a popoular recipe from the Caribbean coast of Guatemala 
@@ -31,19 +31,23 @@
                 <a href="https://www.youtube.com/watch?v=hXb2p2WgHxI" class="link"> (Click here to learn more)</a>
                 Tapado is full of fresh fish, shrimp, plantains and yummy coconut milk soup broth. 
             </p>
+            </div>
         </div>
-        <div class="left col-xs-12 col-lg-4">
+        <div class="left col-xs-12 col-lg-6">
         <div>
-            <img src="http://www.sercano.com/wp-content/uploads/2015/06/IMG_1937.jpg" alt="Tapado soup" width="600">
-            <p>Photo Credit: http://www.sercano.com/tapado-de-mariscos/ </p>
-
+            <!--img-fluid makes the image responsive-->
+            <img class="img-fluid" src="http://www.sercano.com/wp-content/uploads/2015/06/IMG_1937.jpg" alt="Tapado soup" width="600">
+            <p class="caption">Photo Credit: http://www.sercano.com/tapado-de-mariscos/ </p>
+       
             <h4>Tips before cooking</h4>
             <ul>
                 <li>Don't over cook your soup!! You want the shrimp and fish to stay intact.</li>
-                <li>Use firm white fish, like halibut, red snapper.</li>
-                <li>Stay away from overripe plaintains, you want to use plaintains that <br>are ripened but not too squishy</li>
-                <li>If you can, use real coconut milk, cream without additives or preservatives</li>
+                <li>Use firm white fish, like halibut or red snapper.</li>
+                <li>Stay away from overripe plaintains, you want to use plaintains that are ripened but not too squishy</li>
+                <li>If you can, use real coconut milk/cream without additives or preservatives</li>
             </ul>
+        </div>
+        <div>
             <h3>Ingredients: </h3>
             <ul>
                 <li>1 Tbsp garlic clove</li>
@@ -127,5 +131,6 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </div>
     </body>
 </html>
