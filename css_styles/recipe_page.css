@@ -2,15 +2,15 @@
 
 body {
     background-color: #FFFFED;
-    font-family: 'Open Sans', cursive;
-    font-size: 14px;
-    margin-left: 80px;
+    margin: auto;
+    /*margin-left: 80px;*/
 }
 
 h1 {
     font-family: 'Chewy', cursive;
     color:   #F76060;
     font-size: 50px;
+    border-bottom: 3px solid #F76060;
 }
 
 h3 {
@@ -23,25 +23,30 @@ h4 {
     font-family: 'Chewy', cursive;
     color: #F76060;
     font-size: 20px;
+    border-bottom: 2px solid #F76060;
 }
 
-caption {
-    font-size: 6px;
+p {
+    padding-bottom: 15px;
+    font-family: 'Open Sans', cursive;
+    font-size: 14px;
 }
+
 
 ol li {
     padding: 10px; /* padding for instruction list */
 }
 
+/* Border box for other recipes 
 .border {
     border-radius:30px;
     border: 1px solid #F76060;
-    padding: 30px;
+    padding: 20px; 20px; 10px;
     margin-bottom: 5px;
     width: 380px;
     height: 100px;
-}
-/*change bullet points
+}*/
+/*change bullet points, may use in the future//
 ul {
     list-style: none;
   }
@@ -66,18 +71,18 @@ a:hover {
 
 
 /* Css classes */
-/* width of description */
 
 .link {
     color:#099E47;
 }
 
 .top {
-    
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
 
 .description {
-    width: 600px;
+    width: 600px; /* width of description */
 }
 
 .right {
@@ -90,3 +95,4 @@ a:hover {
     float: left;
     width: 600px;
 }
+

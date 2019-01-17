@@ -3,17 +3,28 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Homemade Tapado Soup </title>
-        <!-- Bootstrap link (remember to add it before your css styling!-->
-        <link href=”https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css” rel=”stylesheet”>
+        <!-- Meta tag "viewport" content="width=device-width, initial-scale=1.0" tells index.html to take up the whole width of the screen, whatever size it may be-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <title>Tapado Seafood Garifuna soup </title>
+        <!-- Bootstrap link (remember to add it before your css styling!    // old link <link href=”https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css” rel=”stylesheet”>   -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Stylesheet I created for the Recipe index.html-->
         <link rel="stylesheet" type="text/css" href="css_styles/recipe_page.css">
        <!-- Google font-->
        <link href="https://fonts.googleapis.com/css?family=Chewy|Open+Sans:400,600" rel="stylesheet">
     </head>
     <body>
-        <div class="top">
-            <h1>Tapado: A Garifuna seafood soup recipe</h1>
+        
+        <!-- <div class="col-lg-4 col-md-6">    class="col-sm-4" three equal-width columns starting at tablets and scaling to large desktops. 
+            On mobile phones or screens that are less than 768px wide, the columns will automatically stack:-->
+
+            <!-- <div class="col-sm-6"> example shows a "stacked-to-horizontal" two-column layout, meaning it will result in a 50%/50% split on 
+              all screens, except for extra small screens, which it will automatically stack (100%):-->
+
+        <!-- col-xs-12 takes up 12 columns on small screens, so things are as large as possible-->
+        <div class="top col-xs-12 col-lg-4">
+            <h1>Tapado: Garifuna Seafood soup</h1>
             <p class="description"> 
                 Tapado is a delicous seafood soup. It's a popoular recipe from the Caribbean coast of Guatemala 
                 Belize and Honduras. It's mainly eatened by the Garifuna communities in the region.
@@ -21,10 +32,11 @@
                 Tapado is full of fresh fish, shrimp, plantains and yummy coconut milk soup broth. 
             </p>
         </div>
-        <div class="left">
+        <div class="left col-xs-12 col-lg-4">
         <div>
             <img src="http://www.sercano.com/wp-content/uploads/2015/06/IMG_1937.jpg" alt="Tapado soup" width="600">
-            <caption>Photo Credit: http://www.sercano.com/tapado-de-mariscos/ </caption>
+            <p>Photo Credit: http://www.sercano.com/tapado-de-mariscos/ </p>
+
             <h4>Tips before cooking</h4>
             <ul>
                 <li>Don't over cook your soup!! You want the shrimp and fish to stay intact.</li>
@@ -58,7 +70,7 @@
             </ul>
         </div>
     </div>
-    <div class="right">
+    <div class="right col-xs-12 col-lg-4">
         <div>
             <h3>Instructions: </h3>
             <ol>
@@ -98,7 +110,7 @@
                 </li>
             </ol>
         </div>
-        <div class="border">
+        <div>
             <h4>Other Recipes to Try:</h4>
             <ul>
                 <li>
