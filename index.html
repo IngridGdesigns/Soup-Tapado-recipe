@@ -1,6 +1,6 @@
 <!DOCTYPE html> 
 <!-- Recipe page for Garifuna soup-->
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <!-- Meta tag "viewport" content="width=device-width, initial-scale=1.0" tells index.html to take up the whole width of the screen, whatever size it may be-->
@@ -15,67 +15,87 @@
        <link href="https://fonts.googleapis.com/css?family=Chewy|Open+Sans:400,600" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
+        <div class="container-fluid">
+            <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+            </div>
+    <div class="container">
         <!-- <div class="col-lg-4 col-md-6">    class="col-sm-4" three equal-width columns starting at tablets and scaling to large desktops. 
             On mobile phones or screens that are less than 768px wide, the columns will automatically stack:-->
 
             <!-- <div class="col-sm-6"> example shows a "stacked-to-horizontal" two-column layout, meaning it will result in a 50%/50% split on 
               all screens, except for extra small screens, which it will automatically stack (100%):-->
-        <div class="row">
+    
         <!-- col-xs-12 takes up 12 columns on small screens, so things are as large as possible-->
-        <div class="top col-xs-12 col-lg-6">
-            <h1>Tapado: Garifuna Seafood soup</h1>
-            <p class="description"> 
-                Tapado is a delicous seafood soup. It's a popoular recipe from the Caribbean coast of Guatemala 
-                Belize and Honduras. It's mainly eatened by the Garifuna communities in the region.
-                <a href="https://www.youtube.com/watch?v=hXb2p2WgHxI" class="link"> (Click here to learn more)</a>
-                Tapado is full of fresh fish, shrimp, plantains and yummy coconut milk soup broth. 
-            </p>
-            </div>
+    
+        <div class="top page-header col-xs-12 col-md-8 col-lg-10">
+           
+                <h1>Tapado <small>Seafood soup</small></h1>
+                <p class="description"> 
+                    Tapado is a delicous seafood soup. It's a popoular recipe from the Caribbean coast of Guatemala 
+                    Belize and Honduras. It's mainly eatened by the Garifuna communities in the region.
+                    <a href="https://www.youtube.com/watch?v=hXb2p2WgHxI" class="link"> (Click here to learn more)</a>
+                    Tapado is full of fresh fish, shrimp, plantains and yummy coconut milk soup broth. 
+                </p>
+            
         </div>
-        <div class="left col-xs-12 col-lg-6">
-        <div>
-            <!--img-fluid makes the image responsive-->
-            <img class="img-fluid" src="http://www.sercano.com/wp-content/uploads/2015/06/IMG_1937.jpg" alt="Tapado soup" width="600">
-            <p class="caption">Photo Credit: http://www.sercano.com/tapado-de-mariscos/ </p>
-       
+        <div class="row col-xs-12">
+            <div class="col-lg-6">
+                <!--img-fluid makes the image responsive-->
+                <img class="img-fluid" src="http://www.sercano.com/wp-content/uploads/2015/06/IMG_1937.jpg" alt="Tapado soup" width="600">
+                <p>Photo Credit: http://www.sercano.com/tapado-de-mariscos/ </p>
+       <!---
             <h4>Tips before cooking</h4>
             <ul>
                 <li>Don't over cook your soup!! You want the shrimp and fish to stay intact.</li>
                 <li>Use firm white fish, like halibut or red snapper.</li>
                 <li>Stay away from overripe plaintains, you want to use plaintains that are ripened but not too squishy</li>
                 <li>If you can, use real coconut milk/cream without additives or preservatives</li>
-            </ul>
+            </ul> -->
+            </div>
+            <div class="col-lg-6">
+                 <!-- Ingredients go here -->
+                    <h3>Ingredients: </h3>
+                <ul>
+                    <li>1 Tbsp garlic clove</li>
+                    <li>2 plum tomato's</li>
+                    <li>1 medium onion</li>
+                    <li>2 tbs of fresh oregano</li>
+                    <li>1 tbsp fresh basil</li>
+                    <li>1 tbsp fresh oregano</li>
+                    <li>A handful of fresh cilantro</li>
+                    <li>3 peeled and sliced plaintains (make sure you sli (ce them diagnal and not too thin)</li>
+                    <li>1 green banana sliced diagnal</li>
+                    <li>20 raw medium size shrimp peeled and deveined but tails on</li>
+                    <li>2 lbs of white fish</li>
+                    <li>1 lb. of clams</li>
+                    <li>3 whole crabs</li>
+                    <li>Salt to taste</li>
+                    <li>Black Pepper to taste</li>
+                    <li>2 brown coconuts or 2 cans of coconut milk and/or cream</li>
+                    <li>2 cups of Seafood or Chicken stock</li>
+                    <li>(Optional) 1/1 red bell pepper</li>
+                    <li>(Optional)Cheesecloth</li>
+                    <li>Coconut oil or Vegetable oil</li>
+                    <li>A medium to large soup pot</li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <h3>Ingredients: </h3>
-            <ul>
-                <li>1 Tbsp garlic clove</li>
-                <li>2 plum tomato's</li>
-                <li>1 medium onion</li>
-                <li>2 tbs of fresh oregano</li>
-                <li>1 tbsp fresh basil</li>
-                <li>1 tbsp fresh oregano</li>
-                <li>A handful of fresh cilantro</li>
-                <li>3 peeled and sliced plaintains (make sure you sli (ce them diagnal and not too thin)</li>
-                <li>1 green banana sliced diagnal</li>
-                <li>20 raw medium size shrimp peeled and deveined but tails on</li>
-                <li>2 lbs of white fish</li>
-                <li>1 lb. of clams</li>
-                <li>3 whole crabs</li>
-                <li>Salt to taste</li>
-                <li>Black Pepper to taste</li>
-                <li>2 brown coconuts or 2 cans of coconut milk and/or cream</li>
-                <li>2 cups of Seafood or Chicken stock</li>
-                <li>(Optional) 1/1 red bell pepper</li>
-                <li>(Optional)Cheesecloth</li>
-                <li>Coconut oil or Vegetable oil</li>
-                <li>A medium to large soup pot</li>
-            </ul>
-        </div>
-    </div>
-    <div class="right col-xs-12 col-lg-4">
-        <div>
+    <div class="row col-xs-12 ">
+        <div class="col-lg-6">
+            <!-- Instructions go here -->
             <h3>Instructions: </h3>
             <ol>
                 <li>If you can, make fresh coconut milk! (Otherwise use 2 cans of coconut milk.)
@@ -114,7 +134,7 @@
                 </li>
             </ol>
         </div>
-        <div>
+        <div class="col-lg-6">
             <h4>Other Recipes to Try:</h4>
             <ul>
                 <li>
@@ -126,11 +146,11 @@
             </ul>
         </div>
     </div>
+</div>
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    </div>
-    </body>
+</body>
 </html>
